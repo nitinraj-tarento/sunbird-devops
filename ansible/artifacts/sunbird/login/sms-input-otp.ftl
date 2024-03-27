@@ -31,10 +31,10 @@
                                 <div id="main-timeout-box" class="main-timeout-inner-box">
                                   <span id="js-timeout-box" class="ui text error"></span>
                                 </div>
-                            </div>
+                          </div>
                             
                             <div class="field">
-                                <button onclick="javascript:makeDivUnclickable(); javascript:otpLoginUser()" ondblclick="javascript:disableBtn()" class="ui fluid submit button" name="login" id="login" type="submit" value="${msg("doLogIn")}">${msg("doSubmit")}</button>
+                                <button onclick="javascript:makeDivUnclickable(); javascript:disableBtn(); javascript:otpLoginUser()" class="ui fluid submit button" name="login" id="login" type="submit" value="${msg("doLogIn")}">${msg("doSubmit")}</button>
                             </div>
                             <div class="field or-container">
                                 <div class="or-holder">
